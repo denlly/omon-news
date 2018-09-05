@@ -43,7 +43,7 @@ module.exports = {
       key: "./ops/aws/ec2/omon-hash.pem",
       user: "ec2-user",
       host: "ec2-18-188-236-135.us-east-2.compute.amazonaws.com",
-      ref: "master",
+      ref: "origin/master",
       repo: "https://github.com/denlly/omon-news.git",
       path: "/home/webroot/omon-news",
       // To prepare the host by installing required software (eg: git)
