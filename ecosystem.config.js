@@ -42,9 +42,9 @@ module.exports = {
     staging: {
       key: "./ops/aws/ec2/omon-hash.pem",
       user: "ec2-user",
-      host: "18.188.236.135",
-      ref: "origin/master",
-      repo: "https://denlly:79107345-qq.com@github.com/denlly/omon-news.git",
+      host: "ec2-18-188-236-135.us-east-2.compute.amazonaws.com",
+      ref: "master",
+      repo: "https://github.com/denlly/omon-news.git",
       path: "/home/webroot/omon-news",
       // To prepare the host by installing required software (eg: git)
       // even before the setup process starts
