@@ -35,16 +35,16 @@ module.exports = {
       user: 'ec2-user',
       host: 'ec2-18-188-236-135.us-east-2.compute.amazonaws.com',
       ref: 'origin/master',
-      repo: 'git@github.com:repo.git',
+      repo: 'git@github.com:denlly/omon-news.git',
       path: '/var/www/production',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     staging: {
       key: "./ops/aws/ec2/omon-hash.pem",
       user: "ec2-user",
-      host: "ec2-18-188-236-135.us-east-2.compute.amazonaws.com",
+      host: "18.188.236.135",
       ref: "origin/develop",
-      repo: "https://github.com/denlly/omon-news.git",
+      repo: "git@github.com:denlly/omon-news.git",
       path: "/home/webroot/omon-news",
       // To prepare the host by installing required software (eg: git)
       // even before the setup process starts
