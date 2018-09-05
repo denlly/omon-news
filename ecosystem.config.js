@@ -6,8 +6,8 @@ module.exports = {
   apps: [
     // First application
     {
-      name: "omon-new",
-      script: "app.js",
+      name: "omon-news",
+      script: "./node_modules/nuxt/bin/nuxt-start",
       env: {
         // 生产环境启动快速编译模式，忽略静态类型检查
         TS_NODE_TRANSPILE_ONLY: "true",

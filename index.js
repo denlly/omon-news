@@ -1,0 +1,1 @@
+require("./.nuxt/server.js")
