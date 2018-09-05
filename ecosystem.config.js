@@ -62,9 +62,7 @@ module.exports = {
       // !!!!!!!!!!!!! 此处会运行数据库修改脚本，谨慎运行
       // "pre-deploy": "NODE_ENV=staging yarn run migrations:run",
       // Commands to be executed on the server after the repo has been cloned
-      "post-deploy": `yarn install 
-        && NODE_ENV=staging yarn run build 
-        && pm2 startOrRestart ecosystem.config.js --env staging`
+      "post-deploy": `yarn install && NODE_ENV=staging yarn run build && pm2 startOrRestart ecosystem.config.js --env staging`
     }
   }
 }
