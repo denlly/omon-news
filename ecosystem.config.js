@@ -45,7 +45,7 @@ module.exports = {
       host: "ec2-18-188-236-135.us-east-2.compute.amazonaws.com",
       ref: "origin/master",
       repo: "https://github.com/denlly/omon-news.git",
-      path: "/home/webroot/omon-news",
+      path: "/home/webroot/omon-news.git",
       // To prepare the host by installing required software (eg: git)
       // even before the setup process starts
       // can be multiple commands separated by the character ";"
