@@ -9,7 +9,7 @@
           {{ list.title }}
         </router-link>
         <a class="github" href="https://github.com/denlly" >
-        about me</a>
+        about me me</a>
         <a class="github" href="https://github.com/nuxt/hackernews" target="_blank" rel="noopener banner">
           Built with Nuxt.js
         </a>
