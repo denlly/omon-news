@@ -1,1 +1,1 @@
-require("./.nuxt/server.js")
+require("./node_modules/nuxt/bin/nuxt-start");
